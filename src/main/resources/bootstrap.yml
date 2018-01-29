@@ -1,0 +1,10 @@
+# spring application name should be the service name
+# to be registered in the eureka discovery server
+spring:
+  application:
+     name: category-service
+# configuration fro spring cloud config server
+  cloud:
+    config:
+     uri: http://localhost:8888
+# applicationc configuration is externalized in biller-service.properties in config server
