@@ -24,7 +24,7 @@ import com.sannu.categoryservice.model.CustomError;
 import com.sannu.categoryservice.service.CategoryService;
 
 @RestController
-@RequestMapping(path = "/api")
+@RequestMapping(path = "/api/c")
 @CrossOrigin("*")
 public class CategoryController {
 
